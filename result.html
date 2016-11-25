@@ -1,0 +1,2014 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <style media="all" type="text/css">
+    table {
+      border-collapse: collapse;
+      border: 1px solid #CCC;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 9pt;
+      line-height: normal;
+      width: 100%;
+    }
+
+    th {
+      text-align: center;
+      border-top: 1px solid #FB7A31;
+      border-bottom: 1px solid #FB7A31;
+      background: #FFC;
+      padding: 0.3em;
+      border-left: 1px solid silver;
+    }
+
+    tr.break td {
+      border: 0;
+      border-top: 1px solid #FB7A31;
+      padding: 0;
+      margin: 0;
+    }
+
+    tr.method td {
+      font-weight: bold;
+    }
+
+    td {
+      padding: 0.3em;
+    }
+
+    td:first-child {
+      width: 190px;
+      }
+
+    td {
+      border-left: 1px solid #CCC;
+      text-align: center;
+    }
+
+    .method_name {
+      text-align: left;
+    }
+
+    tfoot td {
+      text-align: left;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Profile Report: wall_time</h1>
+    <!-- Threads Table -->
+    <table>
+      <tr>
+        <th>Thread ID</th>
+        <th>Fiber ID</th>
+        <th>Total Time</th>
+      </tr>
+
+      <tr>
+        <td>70317007698420</td>
+        <td><a href="#70317007513020">70317007513020</a></td>
+        <td>4.39885687828064</td>
+      </tr>
+
+    </table>
+    <!-- Methods Tables -->
+
+      <h2><a name="70317007513020">Thread 70317007698420, Fiber: 70317007513020</a></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>%Total</th>
+            <th>%Self</th>
+            <th>Total</th>
+            <th>Self</th>
+            <th>Wait</th>
+            <th>Child</th>
+            <th>Calls</th>
+            <th class="method_name">Name</th>
+            <th>Line</th>
+          </tr>
+        </thead>
+        <tbody>
+
+               <!-- Parents -->
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>4.40</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>4.40</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Program_run_70317007513020">
+                      Program#run
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=66" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:66">66</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>4.40</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>4.40</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Program__run_70317007513020">Program#_run</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=66" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:66">66</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>4.40</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>4.40</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Program_run_70317007513020">Program#run</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=66" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:66">66</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>4.40</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>4.40</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Program__run_70317007513020">
+                      Program#_run
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=43" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:43">43</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.22</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.22</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Array_each_70317007513020">Array#each</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=53" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:53">53</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.17</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.17</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Auth_collect_70317007513020">Auth#collect</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=52" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Array_*_70317007513020">Array#*</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=44" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:44">44</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1783</td>
+                   <td class="method_name"><a href="#Class_new_70317007513020">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=52" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:52">52</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.14</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.14</td>
+                   <td>594/1188</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Password__create_70317007513020">&lt;Class::BCrypt::Password&gt;#create</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=46" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:46">46</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.21</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.21</td>
+                   <td>594/1188</td>
+                   <td class="method_name"><a href="#BCrypt__Password____70317007513020">BCrypt::Password#==</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=66" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:66">66</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>98.85%</td>
+                 <td>0.10%</td>
+                 <td>4.35</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>4.34</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="_Class__BCrypt__Engine__hash_secret_70317007513020">
+                      &lt;Class::BCrypt::Engine&gt;#hash_secret
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=45" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:45">45</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>4.34</td>
+                   <td>4.34</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine____bc_crypt_70317007513020">&lt;Class::BCrypt::Engine&gt;#__bc_crypt</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=51" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:51">51</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__valid_salt__70317007513020">&lt;Class::BCrypt::Engine&gt;#valid_salt?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=47" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:47">47</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__valid_secret__70317007513020">&lt;Class::BCrypt::Engine&gt;#valid_secret?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=46" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:46">46</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>990/990</td>
+                   <td class="method_name"><a href="#String_to_s_70317007513020">String#to_s</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=51" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:51">51</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>198/198</td>
+                   <td class="method_name"><a href="#NilClass_to_s_70317007513020">NilClass#to_s</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=51" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:51">51</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>4.34</td>
+                   <td>4.34</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__hash_secret_70317007513020">&lt;Class::BCrypt::Engine&gt;#hash_secret</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=51" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:51">51</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>98.57%</td>
+                 <td>98.57%</td>
+                 <td>4.34</td>
+                 <td>4.34</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="_Class__BCrypt__Engine____bc_crypt_70317007513020">
+                      &lt;Class::BCrypt::Engine&gt;#__bc_crypt
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.22</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.22</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Program__run_70317007513020">Program#_run</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=53" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:53">53</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>50.56%</td>
+                 <td>0.05%</td>
+                 <td>2.22</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2.22</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Array_each_70317007513020">
+                      Array#each
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.21</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.21</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#BCrypt__Password____70317007513020">BCrypt::Password#==</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Kernel_puts_70317007513020">Kernel#puts</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Hash_fetch_70317007513020">Hash#fetch</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.21</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.21</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Array_each_70317007513020">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>50.28%</td>
+                 <td>0.04%</td>
+                 <td>2.21</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2.21</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="BCrypt__Password____70317007513020">
+                      BCrypt::Password#==
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=65" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:65">65</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.21</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.21</td>
+                   <td>594/1188</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__hash_secret_70317007513020">&lt;Class::BCrypt::Engine&gt;#hash_secret</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=66" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:66">66</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#String____70317007513020">String#==</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=66" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:66">66</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.17</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.17</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Program__run_70317007513020">Program#_run</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=52" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:52">52</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>49.44%</td>
+                 <td>0.00%</td>
+                 <td>2.17</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2.17</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Auth_collect_70317007513020">
+                      Auth#collect
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=16" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:16">16</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.17</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.17</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Array_map_70317007513020">Array#map</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=17" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:17">17</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#_Class__Hash__[]_70317007513020">&lt;Class::Hash&gt;#[]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=17" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:17">17</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.17</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.17</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Auth_collect_70317007513020">Auth#collect</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=17" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:17">17</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>49.43%</td>
+                 <td>0.04%</td>
+                 <td>2.17</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2.17</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Array_map_70317007513020">
+                      Array#map
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.16</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.16</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Auth_compute_password_hash_70317007513020">Auth#compute_password_hash</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/1783</td>
+                   <td class="method_name"><a href="#Class_new_70317007513020">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.16</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.16</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Array_map_70317007513020">Array#map</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>49.16%</td>
+                 <td>0.02%</td>
+                 <td>2.16</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2.16</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="Auth_compute_password_hash_70317007513020">
+                      Auth#compute_password_hash
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=27" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:27">27</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.16</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.16</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Password__create_70317007513020">&lt;Class::BCrypt::Password&gt;#create</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=28" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:28">28</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.16</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.16</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Auth_compute_password_hash_70317007513020">Auth#compute_password_hash</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=28" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:28">28</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>49.14%</td>
+                 <td>0.03%</td>
+                 <td>2.16</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2.16</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="_Class__BCrypt__Password__create_70317007513020">
+                      &lt;Class::BCrypt::Password&gt;#create
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=43" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:43">43</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>2.14</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2.14</td>
+                   <td>594/1188</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__hash_secret_70317007513020">&lt;Class::BCrypt::Engine&gt;#hash_secret</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=46" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:46">46</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/1783</td>
+                   <td class="method_name"><a href="#Class_new_70317007513020">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=46" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:46">46</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__generate_salt_70317007513020">&lt;Class::BCrypt::Engine&gt;#generate_salt</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=46" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:46">46</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1783</td>
+                   <td class="method_name"><a href="#Program__run_70317007513020">Program#_run</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=52" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:52">52</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/1783</td>
+                   <td class="method_name"><a href="#Person_initialize_70317007513020">Person#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=38" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:38">38</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/1783</td>
+                   <td class="method_name"><a href="#Array_map_70317007513020">Array#map</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/1783</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Password__create_70317007513020">&lt;Class::BCrypt::Password&gt;#create</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=46" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:46">46</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.55%</td>
+                 <td>0.08%</td>
+                 <td>0.02</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.02</td>
+                 <td>1783</td>
+                 <td class="method_name">
+                   <a name="Class_new_70317007513020">
+                     *Class#new
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#BCrypt__Password_initialize_70317007513020">BCrypt::Password#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Person_initialize_70317007513020">Person#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#BasicObject_initialize_70317007513020">BasicObject#initialize</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.02</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.02</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#Class_new_70317007513020">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.46%</td>
+                 <td>0.10%</td>
+                 <td>0.02</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.02</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="BCrypt__Password_initialize_70317007513020">
+                      BCrypt::Password#initialize
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=55" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:55">55</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#BCrypt__Password_split_hash_70317007513020">BCrypt::Password#split_hash</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=58" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:58">58</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#BCrypt__Password_valid_hash__70317007513020">BCrypt::Password#valid_hash?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=56" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:56">56</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#String_replace_70317007513020">String#replace</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=57" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:57">57</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Array_each_70317007513020">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.22%</td>
+                 <td>0.02%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="Kernel_puts_70317007513020">
+                      Kernel#puts
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#IO_puts_70317007513020">IO#puts</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Kernel_puts_70317007513020">Kernel#puts</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.20%</td>
+                 <td>0.01%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="IO_puts_70317007513020">
+                      IO#puts
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#IO_write_70317007513020">IO#write</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#BCrypt__Password_initialize_70317007513020">BCrypt::Password#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=58" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:58">58</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.19%</td>
+                 <td>0.06%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="BCrypt__Password_split_hash_70317007513020">
+                      BCrypt::Password#split_hash
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=81" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:81">81</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#String_split_70317007513020">String#split</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=82" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:82">82</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3564/3564</td>
+                   <td class="method_name"><a href="#String_to_str_70317007513020">String#to_str</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=83" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:83">83</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2376/2376</td>
+                   <td class="method_name"><a href="#String_[]_70317007513020">String#[]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=83" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:83">83</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#String_to_i_70317007513020">String#to_i</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=83" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:83">83</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Class_new_70317007513020">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.19%</td>
+                 <td>0.01%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="Person_initialize_70317007513020">
+                      Person#initialize
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=35" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:35">35</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>594/1783</td>
+                   <td class="method_name"><a href="#Class_new_70317007513020">Class#new</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=38" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:38">38</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#IO_puts_70317007513020">IO#puts</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.18%</td>
+                 <td>0.18%</td>
+                 <td>0.01</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="IO_write_70317007513020">
+                      IO#write
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#BCrypt__Password_initialize_70317007513020">BCrypt::Password#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=56" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:56">56</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.16%</td>
+                 <td>0.02%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="BCrypt__Password_valid_hash__70317007513020">
+                      BCrypt::Password#valid_hash?
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=73" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:73">73</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Password__valid_hash__70317007513020">&lt;Class::BCrypt::Password&gt;#valid_hash?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=74" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:74">74</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#Kernel_class_70317007513020">Kernel#class</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=74" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:74">74</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Password__create_70317007513020">&lt;Class::BCrypt::Password&gt;#create</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=46" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:46">46</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.14%</td>
+                 <td>0.06%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="_Class__BCrypt__Engine__generate_salt_70317007513020">
+                      &lt;Class::BCrypt::Engine&gt;#generate_salt
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=62" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:62">62</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#_Module__OpenSSL__Random__random_bytes_70317007513020">&lt;Module::OpenSSL::Random&gt;#random_bytes</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=72" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:72">72</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine____bc_salt_70317007513020">&lt;Class::BCrypt::Engine&gt;#__bc_salt</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=72" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:72">72</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Integer_to_i_70317007513020">Integer#to_i</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=63" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:63">63</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#BCrypt__Password_valid_hash__70317007513020">BCrypt::Password#valid_hash?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=74" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:74">74</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.13%</td>
+                 <td>0.09%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="_Class__BCrypt__Password__valid_hash__70317007513020">
+                      &lt;Class::BCrypt::Password&gt;#valid_hash?
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=49" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:49">49</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#String__~_70317007513020">String#=~</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=50" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:50">50</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__hash_secret_70317007513020">&lt;Class::BCrypt::Engine&gt;#hash_secret</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=47" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:47">47</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.13%</td>
+                 <td>0.13%</td>
+                 <td>0.01</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="_Class__BCrypt__Engine__valid_salt__70317007513020">
+                      &lt;Class::BCrypt::Engine&gt;#valid_salt?
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=80" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:80">80</a></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__generate_salt_70317007513020">&lt;Class::BCrypt::Engine&gt;#generate_salt</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=72" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:72">72</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.07%</td>
+                 <td>0.07%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="_Module__OpenSSL__Random__random_bytes_70317007513020">
+                      &lt;Module::OpenSSL::Random&gt;#random_bytes
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#BCrypt__Password_split_hash_70317007513020">BCrypt::Password#split_hash</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=82" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:82">82</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.07%</td>
+                 <td>0.07%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="String_split_70317007513020">
+                      String#split
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__hash_secret_70317007513020">&lt;Class::BCrypt::Engine&gt;#hash_secret</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=46" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:46">46</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.05%</td>
+                 <td>0.03%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="_Class__BCrypt__Engine__valid_secret__70317007513020">
+                      &lt;Class::BCrypt::Engine&gt;#valid_secret?
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=85" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:85">85</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#Kernel_respond_to__70317007513020">Kernel#respond_to?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=86" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:86">86</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Password__valid_hash__70317007513020">&lt;Class::BCrypt::Password&gt;#valid_hash?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=50" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:50">50</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.04%</td>
+                 <td>0.04%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="String__~_70317007513020">
+                      String#=~
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3564/3564</td>
+                   <td class="method_name"><a href="#BCrypt__Password_split_hash_70317007513020">BCrypt::Password#split_hash</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=83" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:83">83</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.03%</td>
+                 <td>0.03%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>3564</td>
+                 <td class="method_name">
+                   <a name="String_to_str_70317007513020">
+                      String#to_str
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2376/2376</td>
+                   <td class="method_name"><a href="#BCrypt__Password_split_hash_70317007513020">BCrypt::Password#split_hash</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=83" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:83">83</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.03%</td>
+                 <td>0.03%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2376</td>
+                 <td class="method_name">
+                   <a name="String_[]_70317007513020">
+                      String#[]
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__valid_secret__70317007513020">&lt;Class::BCrypt::Engine&gt;#valid_secret?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=86" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:86">86</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.02%</td>
+                 <td>0.02%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="Kernel_respond_to__70317007513020">
+                      Kernel#respond_to?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#BCrypt__Password____70317007513020">BCrypt::Password#==</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=66" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:66">66</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.02%</td>
+                 <td>0.02%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="String____70317007513020">
+                      String#==
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__generate_salt_70317007513020">&lt;Class::BCrypt::Engine&gt;#generate_salt</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=72" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:72">72</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.02%</td>
+                 <td>0.02%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="_Class__BCrypt__Engine____bc_salt_70317007513020">
+                      &lt;Class::BCrypt::Engine&gt;#__bc_salt
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#Array_each_70317007513020">Array#each</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.02%</td>
+                 <td>0.02%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="Hash_fetch_70317007513020">
+                      Hash#fetch
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#BCrypt__Password_split_hash_70317007513020">BCrypt::Password#split_hash</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=83" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:83">83</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.02%</td>
+                 <td>0.02%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="String_to_i_70317007513020">
+                      String#to_i
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#BCrypt__Password_initialize_70317007513020">BCrypt::Password#initialize</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=57" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:57">57</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.01%</td>
+                 <td>0.01%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="String_replace_70317007513020">
+                      String#replace
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>990/990</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__hash_secret_70317007513020">&lt;Class::BCrypt::Engine&gt;#hash_secret</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=51" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:51">51</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.01%</td>
+                 <td>0.01%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>990</td>
+                 <td class="method_name">
+                   <a name="String_to_s_70317007513020">
+                      String#to_s
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1188/1188</td>
+                   <td class="method_name"><a href="#BCrypt__Password_valid_hash__70317007513020">BCrypt::Password#valid_hash?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb&line=74" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/password.rb:74">74</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.01%</td>
+                 <td>0.01%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1188</td>
+                 <td class="method_name">
+                   <a name="Kernel_class_70317007513020">
+                      Kernel#class
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>594/594</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__generate_salt_70317007513020">&lt;Class::BCrypt::Engine&gt;#generate_salt</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=63" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:63">63</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>594</td>
+                 <td class="method_name">
+                   <a name="Integer_to_i_70317007513020">
+                      Integer#to_i
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>198/198</td>
+                   <td class="method_name"><a href="#_Class__BCrypt__Engine__hash_secret_70317007513020">&lt;Class::BCrypt::Engine&gt;#hash_secret</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb&line=51" title="/Users/miha/Code/ruby-prof-lightning-talk/.bundle/gems/bcrypt-3.1.11/lib/bcrypt/engine.rb:51">51</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>198</td>
+                 <td class="method_name">
+                   <a name="NilClass_to_s_70317007513020">
+                      NilClass#to_s
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Auth_collect_70317007513020">Auth#collect</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=17" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:17">17</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="_Class__Hash__[]_70317007513020">
+                      &lt;Class::Hash&gt;#[]
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Program__run_70317007513020">Program#_run</a></td>
+                   <td><a href="txmt://open?url=file:///Users/miha/Code/ruby-prof-lightning-talk/demo.rb&line=44" title="/Users/miha/Code/ruby-prof-lightning-talk/demo.rb:44">44</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Array_*_70317007513020">
+                      Array#*
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Class_new_70317007513020">Class#new</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="BasicObject_initialize_70317007513020">
+                      BasicObject#initialize
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="9">* indicates recursively called methods</td>
+          </tr>
+        </tfoot>
+      </table>
+
+  </body>
+</html>
